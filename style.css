@@ -44,6 +44,10 @@ body{
 	 font-size:18px;
 	 color:white;
 	 padding:20px 30px 20px 30px;
+	 transition:all 0.5s ease;
+}
+.input-box input:focus{
+	border:2px solid #fff;
 }
 .input-box input::placeholder{
 	color:#fff;
@@ -72,25 +76,42 @@ body{
 }
 .remember a:hover{
 	color:#4285F4;
-	transition:all 0.3s ease;
+	transition:all 0.4s ease;
 }
 .main .btn{
 	width:100%;
 	height:45px;
 	outline:none;
+	background:#000;
 	border:none;
+	color:#fff;
 	padding:12px;
 	border-radius:40px;
 	font-size:18px;
 	box-shadow:0 0 rgb(255,255,255);
 	cursor:pointer;
-	font-weight:400;
+	font-weight:600;
+	transition:all 0.4s ease;
 }
 .main .btn:hover{
-	box-shadow:0 0 30px rgb(255,255,255);
-	transition:all 0.5s ease;
 	font-weight:900;
-	
+	font-size:1.8vw;
+	background:transparent;
+	border:3px solid white;
+}
+.main .btn{
+	font-size:1.5vw;
+	line-height:12px;
+	transition:all 0.3s ease-in; 
+	text-transform:lowercase;
+
+}
+
+.main .btn:hover{
+	font-size:2vw;
+	line-height:12px;
+	font-weight:700;
+	font-family:;
 }
 .main .register-link{
 	font-size:15px;
